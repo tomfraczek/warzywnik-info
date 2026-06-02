@@ -7,32 +7,27 @@ const features = [
   {
     icon: "📅",
     title: "Kalendarz upraw",
-    description:
-      "Sprawdzaj terminy siewu, sadzenia, pielęgnacji i zbiorów.",
+    description: "Sprawdzaj terminy siewu, sadzenia, pielęgnacji i zbiorów.",
   },
   {
     icon: "✅",
     title: "Zadania i przypomnienia",
-    description:
-      "Otrzymuj podpowiedzi, kiedy wykonać ważne prace w ogrodzie.",
+    description: "Otrzymuj podpowiedzi, kiedy wykonać ważne prace w ogrodzie.",
   },
   {
     icon: "💡",
     title: "Sugestie dla roślin",
-    description:
-      "Korzystaj z praktycznych wskazówek dopasowanych do upraw.",
+    description: "Korzystaj z praktycznych wskazówek dopasowanych do upraw.",
   },
   {
     icon: "⛅",
     title: "Pogoda i alerty",
-    description:
-      "Reaguj na zmiany pogody, ryzyko dla ogrodu i warunki upraw.",
+    description: "Reaguj na zmiany pogody, ryzyko dla ogrodu i warunki upraw.",
   },
   {
     icon: "🥦",
     title: "Baza warzyw",
-    description:
-      "Sprawdzaj podstawowe informacje o popularnych warzywach.",
+    description: "Sprawdzaj podstawowe informacje o popularnych warzywach.",
   },
 ];
 

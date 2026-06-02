@@ -2,21 +2,33 @@ const previews = [
   {
     title: "Moje grządki",
     emoji: "🗺️",
-    lines: ["Grządka #1 — pomidory, papryka", "Grządka #2 — marchew, cebula", "Grządka #3 — sałata, rukola"],
+    lines: [
+      "Grządka #1 — pomidory, papryka",
+      "Grządka #2 — marchew, cebula",
+      "Grządka #3 — sałata, rukola",
+    ],
     tag: "3 aktywne",
     tagColor: "bg-[#d8f3dc] text-[#2d6a4f]",
   },
   {
     title: "Dzisiejszy plan",
     emoji: "✅",
-    lines: ["Podlej pomidory", "Sprawdź stan marchewek", "Wysiewa pora po 15 maja"],
+    lines: [
+      "Podlej pomidory",
+      "Sprawdź stan marchewek",
+      "Wysiewa pora po 15 maja",
+    ],
     tag: "3 zadania",
     tagColor: "bg-amber-100 text-amber-700",
   },
   {
     title: "Alerty i sugestie",
     emoji: "⚠️",
-    lines: ["Nocny przymrozek — jutro rano", "Brakuje nawodnienia — papryka", "Termin siewu buraka — teraz"],
+    lines: [
+      "Nocny przymrozek — jutro rano",
+      "Brakuje nawodnienia — papryka",
+      "Termin siewu buraka — teraz",
+    ],
     tag: "2 alerty",
     tagColor: "bg-red-50 text-red-600",
   },

@@ -22,8 +22,7 @@ export default function PrivacyPolicyPage() {
           Administratorem danych osobowych użytkowników aplikacji Warzywnik jest
           [PLACEHOLDER – imię, nazwisko lub nazwa firmy, adres]. W sprawach
           dotyczących ochrony danych osobowych można kontaktować się pod
-          adresem:{" "}
-          <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+          adresem: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
         </p>
 
         <h2>Jakie dane mogą być przetwarzane</h2>
@@ -78,14 +77,12 @@ export default function PrivacyPolicyPage() {
         <h2>Powiadomienia push</h2>
         <p>
           Aplikacja może wysyłać powiadomienia push, jeśli użytkownik wyrazi na
-          to zgodę. Zgoda na powiadomienia może być wycofana w dowolnym
-          momencie w ustawieniach urządzenia.
+          to zgodę. Zgoda na powiadomienia może być wycofana w dowolnym momencie
+          w ustawieniach urządzenia.
         </p>
 
         <h2>Usługi zewnętrzne</h2>
-        <p>
-          Aplikacja może korzystać z następujących usług zewnętrznych:
-        </p>
+        <p>Aplikacja może korzystać z następujących usług zewnętrznych:</p>
         <ul>
           <li>
             [PLACEHOLDER – wymień używane usługi, np. Firebase, Clerk,

@@ -17,8 +17,9 @@ export default function TermsPage() {
         <h2>Postanowienia ogólne</h2>
         <p>
           Niniejszy Regulamin określa zasady korzystania z aplikacji mobilnej{" "}
-          {SITE_NAME} (dalej: &bdquo;Aplikacja&rdquo;), dostępnej w sklepie Google Play.
-          Korzystanie z Aplikacji oznacza akceptację niniejszego Regulaminu.
+          {SITE_NAME} (dalej: &bdquo;Aplikacja&rdquo;), dostępnej w sklepie
+          Google Play. Korzystanie z Aplikacji oznacza akceptację niniejszego
+          Regulaminu.
         </p>
 
         <h2>Charakter aplikacji</h2>
@@ -38,10 +39,10 @@ export default function TermsPage() {
 
         <h2>Konto użytkownika</h2>
         <p>
-          Korzystanie z pełnej funkcjonalności Aplikacji może wymagać
-          założenia konta. Użytkownik zobowiązany jest do podania prawdziwych
-          danych i utrzymania poufności swoich danych logowania. Jedno konto
-          przypisane jest do jednej osoby.
+          Korzystanie z pełnej funkcjonalności Aplikacji może wymagać założenia
+          konta. Użytkownik zobowiązany jest do podania prawdziwych danych i
+          utrzymania poufności swoich danych logowania. Jedno konto przypisane
+          jest do jednej osoby.
         </p>
         <p>
           [PLACEHOLDER – opisz tutaj szczegółowe zasady dotyczące konta,
@@ -73,9 +74,7 @@ export default function TermsPage() {
         </p>
 
         <h2>Ograniczenie odpowiedzialności</h2>
-        <p>
-          Twórca Aplikacji nie ponosi odpowiedzialności za:
-        </p>
+        <p>Twórca Aplikacji nie ponosi odpowiedzialności za:</p>
         <ul>
           <li>skutki decyzji ogrodniczych podjętych na podstawie Aplikacji,</li>
           <li>utratę plonów lub straty materialne wynikające z upraw,</li>
@@ -85,8 +84,8 @@ export default function TermsPage() {
           <li>utratę danych spowodowaną awarią urządzenia użytkownika.</li>
         </ul>
         <p>
-          Aplikacja dostarczana jest w stanie &bdquo;takim, jaki jest&rdquo; (as-is), bez
-          gwarancji jakiegokolwiek rodzaju.
+          Aplikacja dostarczana jest w stanie &bdquo;takim, jaki jest&rdquo;
+          (as-is), bez gwarancji jakiegokolwiek rodzaju.
         </p>
 
         <h2>Zmiany w regulaminie</h2>
