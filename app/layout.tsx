@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Warzywnik – inteligentna aplikacja dla ogrodników",
   description:
     "Warzywnik pomaga planować uprawy, prowadzić grządki, pilnować terminów i szybciej reagować na potrzeby roślin. Pobierz z Google Play.",
-  metadataBase: new URL("https://warzywnik.pl"),
+  metadataBase: new URL("https://warzywnik.info"),
   openGraph: {
     title: "Warzywnik – inteligentna aplikacja dla ogrodników",
     description:
