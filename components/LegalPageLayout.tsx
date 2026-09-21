@@ -5,12 +5,14 @@ interface LegalPageLayoutProps {
   title: string;
   lastUpdated: string;
   children: ReactNode;
+  showDraftNotice?: boolean;
 }
 
 export default function LegalPageLayout({
   title,
   lastUpdated,
   children,
+  showDraftNotice = true,
 }: LegalPageLayoutProps) {
   return (
     <main className="bg-white min-h-screen py-16 px-4 sm:px-6 lg:px-8">
@@ -28,14 +30,14 @@ export default function LegalPageLayout({
           <h1 className="text-3xl sm:text-4xl font-bold text-graphite mb-3">
             {title}
           </h1>
-          <p className="text-gray-500 text-sm">
-            Ostatnia aktualizacja: {lastUpdated}
-          </p>
-          <div className="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-800">
-            <strong>Uwaga:</strong> Ten dokument jest szablonem i może zawierać
-            sekcje oznaczone jako &quot;[PLACEHOLDER]&quot; wymagające
-            uzupełnienia przez właściciela aplikacji przed publikacją.
-          </div>
+          {showDraftNotice && (
+            <div className="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-800">
+              <strong>Uwaga:</strong> Ten dokument jest szablonem i może
+              zawierać sekcje oznaczone jako &quot;[PLACEHOLDER]&quot;
+              wymagające uzupełnienia przez właściciela aplikacji przed
+              publikacją.
+            </div>
+          )}
         </div>
 
         {/* Content */}
